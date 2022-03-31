@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    background-color: bisque;
+}
+
+.container {
+    margin: auto;
+    padding: 24px;
+}
+
+#button-rock {
+    background-color: #fff;
+    color: #444;
+    border: 2px #444 solid;
+    font-size: 24px;    
+}
+
+#button-paper {
+    background-color: #fff;
+    color: #444;
+    border: 2px #444 solid;
+    font-size: 24px;
+}
+
+#button-scissors {
+    background-color: #fff;
+    color: #444;
+    border: 2px #444 solid;
+    font-size: 24px;
+}
