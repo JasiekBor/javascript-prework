@@ -1,5 +1,5 @@
 function printMessage(msg){
-	var div = document.createElement('div');
+	const div = document.createElement('div');
 	div.innerHTML = msg;
 	document.getElementById('messages').appendChild(div);
 }
@@ -8,7 +8,7 @@ function clearMessages(){
 	document.getElementById('messages').innerHTML = '';
 }
 
-var argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
+let argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
 
 
 function getMoveName(argMoveId) {
@@ -52,13 +52,13 @@ console.log('ruch komputera to: ' + computerMove);
 displayResult(playerMove, computerMove);
 
 /////////////////////////////////////
-var argButtonName, buttonPaper, buttonRock, buttonScissors, buttonTest;
+let argButtonName, buttonPaper, buttonRock, buttonScissors, buttonTest;
 
 
 function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
-  var argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
+  let argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
 
 
 function getMoveName(argMoveId) {
